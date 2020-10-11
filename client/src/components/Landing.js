@@ -1,12 +1,19 @@
 import React from 'react';
+import icon from '../assets/email-icon.jpg';
 
 const Landing = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>
-        Emaily!
+        Welcome to the feedback system!
       </h1>
-      Collect feedback form your users
+      <a href="/auth/google">
+      <img src={icon} alt="icon" className="center"
+      height={350}
+      width={700}/>
+      </a>
+      <h2>Collect feedback form your users</h2>
+      
     </div>
   );
 };
